@@ -1,0 +1,67 @@
+blockquote,
+.page .box-1,
+.page .box-2,
+.blog-page .box,
+.pt-about .inter-icon,
+.pt-about .testimonial-item,
+.pt-portfolio .portfolio-items .item figure,
+.pt-blog .blog-item,
+.pt-contact #map,
+.blog-list .blog-post .content .thumbnail,
+.blog-page .blog-comments ul li ul {
+	-webkit-border-radius: 10px;
+			border-radius: 10px;
+}
+
+.blog-list .side-left .tags ul li a {
+	-webkit-border-radius: 25px;
+			border-radius: 25px;
+}
+
+.pt-portfolio .portfolio-filter ul,
+.pt-portfolio .portfolio-filter ul li.active {
+	-webkit-border-radius: 50px;
+			border-radius: 50px;
+}
+
+.pt-about .info .photo img {
+	-webkit-border-radius: 50%;
+			border-radius: 50%;
+}
+
+blockquote:after,
+blockquote:before,
+.page .box-1:after,
+.page .box-1:before,
+.blog-page .box:after,
+.blog-page .box:before,
+.pt-about .info .photo:after,
+.pt-about .info .photo:before,
+.pt-about .testimonial-item:after,
+.pt-about .testimonial-item:before,
+.pt-blog .blog-item:after,
+.pt-blog .blog-item:before,
+.pt-contact #map:after,
+.pt-contact #map:before,
+.page .box-2:after,
+.page .box-2:before,
+.pt-about .inter-icon:after,
+.pt-about .inter-icon:before,
+.pt-portfolio .portfolio-filter ul:after,
+.pt-portfolio .portfolio-filter ul:before,
+.blog-list .blog-post .content .thumbnail:after,
+.blog-list .blog-post .content .thumbnail:before,
+.blog-list .side-left .tags ul li a:after,
+.blog-list .side-left .tags ul li a:before {
+	display: none;
+}
+
+.pt-blog .blog-item .thumbnail {
+	-webkit-border-radius: 10px 10px 0 0;
+			border-radius: 10px 10px 0 0;
+}
+
+.pt-portfolio .portfolio-filter ul {
+	-webkit-box-shadow: 0 0 10px 0px rgba(255, 255, 255, .1);
+			box-shadow: 0 0 10px 0px rgba(255, 255, 255, .1);
+}

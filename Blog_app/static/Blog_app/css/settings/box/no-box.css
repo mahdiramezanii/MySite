@@ -1,0 +1,21 @@
+.page .box-1,
+.page .box-2,
+.blog-page .box,
+.pt-about .testimonial-item,
+.pt-portfolio .portfolio-filter ul,
+.blog-list .side-left {
+	background-color: transparent;
+}
+
+.pt-about .info .photo:before,
+.pt-about .info .photo:after,
+.pt-about .inter-icon:before,
+.pt-about .inter-icon:after,
+.pt-contact #map:before,
+.pt-contact #map:after,
+.blog-list .side-left .tags ul li a:before,
+.blog-list .side-left .tags ul li a:after,
+.blog-page .blog-comments ul li ul:after,
+.blog-page .blog-comments ul li ul:before {
+	border: none;
+}

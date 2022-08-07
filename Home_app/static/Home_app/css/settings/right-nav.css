@@ -1,0 +1,88 @@
+.header-main {
+	right: 0 !important;
+}
+
+.pt-home .banner {
+	right: 10% !important;
+}
+
+.pt-home .lang {
+	right: 11% !important;	
+}
+
+.pt-home .social {
+	left: 20px !important;	
+}
+
+.pt-about, 
+.pt-resume, 
+.pt-portfolio, 
+.pt-blog,
+.pt-contact {
+	-webkit-transform: translateX(-200%) !important;
+	-ms-transform: translateX(-200%) !important;
+	transform: translateX(-200%) !important;
+}
+
+#about:target .pt-about,
+#resume:target .pt-resume,
+#portfolio:target .pt-portfolio,
+#blog:target .pt-blog,
+#contact:target .pt-contact {
+	-webkit-transform: translateX(-11.1%) !important;
+	-ms-transform: translateX(-11.1%) !important;
+	transform: translateX(-11.1%) !important;
+}
+
+.blog-page .blog-container,
+.blog-list .blog-list-container {
+    right: 10% !important;
+}
+
+.blog-page .blog-nav {
+	right: 55% !important;
+}
+
+.header-mobile .header-toggle {
+	float: left;
+}
+
+@media screen and (max-width: 767px) {
+	.header-main {
+		right: -135px !important;
+	}
+	.header-main.on {
+        right: 0px !important;
+    }
+	#about:target .pt-about,
+	#resume:target .pt-resume,
+	#portfolio:target .pt-portfolio,
+	#blog:target .pt-blog,
+	#contact:target .pt-contact {
+		-webkit-transform: translateX(0%) !important;
+		-ms-transform: translateX(0%) !important;
+		transform: translateX(0%) !important;
+	}
+	.blog-page .blog-container,
+	.blog-list .blog-list-container {
+		right: 0 !important;
+	}
+	.blog-list .blog-head h2,
+	.blog-list .blog-head .blog-breadcrumb {
+		right: 0 !important;
+		width: 100% !important;
+	}
+	.pt-home .lang {
+		right: 10px !important;	
+	}
+	.pt-home .banner {
+		right: 0 !important;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.pt-home .social {
+		left: 10px !important;
+	}
+}

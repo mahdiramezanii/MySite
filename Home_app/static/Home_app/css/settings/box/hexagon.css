@@ -1,0 +1,119 @@
+blockquote:after,
+.page .box-1:after,
+.page .box-2:after,
+.blog-page .box:after,
+.pt-about .testimonial-item:after,
+.pt-blog .blog-item:after,
+.blog-list .blog-post .content .thumbnail:after,
+.blog-page .blog-comments ul li ul:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 35px solid transparent;
+}
+
+.pt-about .info .photo:after,
+.pt-contact #map:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 25px solid transparent;
+}
+
+.page .box-2:after {
+	right: auto;
+	left: 0;
+	border-right: 35px solid transparent;
+	border-left: none;
+	border-bottom: none;
+}
+
+blockquote:before,
+.page .box-1:before,
+.page .box-2:before,
+.blog-page .box:before,
+.pt-about .testimonial-item:before,
+.pt-blog .blog-item:before,
+.blog-list .blog-post .content .thumbnail:before,
+.blog-page .blog-comments ul li ul:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-right: 35px solid transparent;
+	z-index: 1;
+}
+
+.pt-about .info .photo:before,
+.pt-contact #map:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+.page .box-2:before {
+	right: 0;
+	left: auto;
+	border-top: none;
+	border-right: none;
+	border-left: 35px solid transparent;
+}
+
+.pt-about .inter-icon:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 15px solid transparent;
+}
+
+.pt-about .inter-icon:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-left: 15px solid transparent;
+}
+
+.blog-list .side-left .tags ul li a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 15px solid transparent;
+}
+
+.blog-list .side-left .tags ul li a:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-left: 15px solid transparent;
+}
+
+.pt-portfolio .portfolio-filter ul:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 35px solid transparent;
+	z-index: 1;
+}
+
+.pt-portfolio .portfolio-filter ul:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-right: 35px solid transparent;
+	z-index: 1;
+}
+
+.blog-list .side-left .tags ul li a {
+	border: none;
+}

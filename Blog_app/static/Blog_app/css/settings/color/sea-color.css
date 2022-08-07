@@ -1,0 +1,129 @@
+a:hover, 
+a:focus,
+.header-main ul li span.active,
+#about:target .icon-a,
+#resume:target .icon-r,
+#portfolio:target .icon-p,
+#blog:target .icon-b,
+#contact:target .icon-c,
+.pt-home .social ul li i:hover,
+.pt-about .info .loc,
+.pt-about .desc-icon p,
+.pt-about .inter-icon i,
+.pt-about .testimonial-item:before,
+.pt-about .testimonial-item .rating li,
+.pt-resume .experience .main p,
+.pt-resume .work-process .wp-step,
+.contact-valid #loader i,
+.blog-page .blog-nav a:hover,
+.blog-page .blog-nav a:focus,
+.blog-page .blog-heading i,
+.blog-page .blog-comments ul li .comment-text span,
+.pt-about .inter-icon i,
+.blog-list .blog-head .blog-breadcrumb li,
+.blog-list .side-left .search .input-group .input-group-text,
+.blog-list .side-left .news p,
+.blog-list .blog-post .content .detalis .meta li i {
+	color: #0dcdbd !important;
+}
+
+.btn-st:after,
+.blog-list .pagination li.active a,
+.blog-list .pagination li a:hover {
+	background: #0dcdbd !important;
+}
+
+.page .header-page:after,
+.page .header-page:before,
+.page .header-box h3:before,
+.blog-page .header-box h3:before,
+.page .header-box h3:after,
+.blog-page .header-box h3:after,
+.pt-resume .experience .item:before,
+.pt-resume .experience .item:after,
+.pt-resume .experience .item:hover h4:before,
+.pt-resume .skill-item .progress .progress-bar,
+.pt-resume .work-process .dots,
+.pt-portfolio .portfolio-filter ul li.active,
+.pt-portfolio .portfolio-items .item figure,
+.blog-page .blog-heading span:after,
+.page .header-box h3:before,
+.blog-page .header-box h3:before,
+.page .header-box h3:after,
+.blog-page .header-box h3:after,
+.blog-list .side-left h4:after,
+.blog-list .side-left .tags ul li a {
+	background-color: #0dcdbd !important;
+}
+
+.pt-about .info-icon i,
+.pt-about .service:hover i:after,
+.pt-about .price:hover i:after,
+.blog-list .side-left .search .input-group {
+	border: 1px solid #0dcdbd !important;
+}
+
+.pt-home .lang ul li a.active {
+	border-bottom: 1px solid #0dcdbd !important;
+}
+
+.page .header-page span:before,
+.page .header-page span:after,
+.pt-resume .experience .main h4:before,
+.blog-list .side-left .categories ul li:before,
+.blog-list .side-left .archives ul li:before {
+    border: 2px solid #0dcdbd !important;
+}
+
+.page .header-box:before,
+.blog-page .header-box:before,
+.pt-resume .skill-item .progress .progress-bar:after {
+    border: 3px solid #0dcdbd !important;
+}
+
+.blog-list .side-left .categories ul li:hover:before,
+.blog-list .side-left .archives ul li:hover:before {
+	border: 4px solid #0dcdbd !important;
+	box-shadow: 0 0 5px 0px #0dcdbd !important;
+}
+
+.pt-blog .blog-item .thumbnail .btn-play:hover:after {
+	border-color: transparent transparent transparent #0dcdbd !important;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	border-bottom: 1px solid #0dcdbd !important;
+}
+
+#preloader .loading-area .circle {
+	border-top-color: #0dcdbd !important;
+}
+
+.bg-lines .bg-line::after {
+	background: linear-gradient(to bottom, rgba(13, 205, 189, 0) 0%, #0dcdbd 75%, #0dcdbd 100%)  !important;
+}
+
+@media screen and (max-width: 991px) {
+    .single-wp.process-1,
+    .single-wp.process-3 {
+        border-left: 1px solid #0dcdbd !important;
+    }
+    .single-wp.process-1,
+    .single-wp.process-2 {
+        border-bottom: 1px solid #0dcdbd !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+	.single-wp.process-1,
+    .single-wp.process-3 {
+		border-bottom: none !important;
+        border-left: 1px solid #0dcdbd !important;
+    }
+    .single-wp.process-2,
+    .single-wp.process-4 {
+		border-bottom: none !important;
+        border-right: 1px solid #0dcdbd !important;
+    }
+}

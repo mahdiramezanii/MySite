@@ -1,0 +1,159 @@
+.style-options {
+    cursor: auto !important;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: -200px;
+    color: #fff;
+    top: 0;
+    background-color: #24272a;
+    z-index: 1000;
+	direction: rtl;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.style-options:before {
+    content: 'باها';
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 0;
+    background: #1d1f22;
+}
+
+.style-options.active {
+    left: 0;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 25%;
+    right: -40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: #24272a;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.toggle-btn span {
+    margin: 0;
+    margin: 0 auto;
+}
+
+.toggle-btn span svg {
+    margin-top: 6px;
+    -webkit-animation-name: settings;
+    animation-name: settings;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.toggle-btn span svg g [fill]{
+    fill: #fff;
+}
+
+.style-options .style-menu {
+    text-align: center;
+    padding: 0;
+}
+
+.style-options .style-menu h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.style-options .style-menu ul {
+	margin: 0;
+    background: rgba(0, 0, 0, .2);
+}
+
+.style-options .style-menu h4 {
+    padding: 0 20px;
+}
+
+.style-options .style-menu ul li {
+    display: inline-block;
+    padding: 5px 0;
+    width: 48%;
+    line-height: 34px;
+    font-size: 13px;
+}
+
+.style-options .style-menu ul li a {
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+}
+
+.style-options .style-menu ul li a:hover {
+    color: #8e8e8e;
+}
+
+.style-options .style-menu ul li a svg g [fill] {
+    fill: #fff;
+}
+
+.style-options .style-menu ul li svg {
+    margin-left: 5px;
+}
+
+.style-options .style-menu .style-color ul {
+    margin-top: 15px;
+    background: #1d1f22;
+    padding: 15px 15px;
+}
+
+.style-options .style-menu .style-color ul li {
+    display: inline-block;
+    width: auto;
+    line-height: 0;
+}
+
+.style-options .style-menu .style-color ul li a {
+    width: 40px;
+    height: 40px;
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@-webkit-keyframes settings {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@keyframes settings {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+    }
+}
